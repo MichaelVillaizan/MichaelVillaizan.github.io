@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+
+}
+body{
+    background: linear-gradient(60deg,#092433 ,55%,#00412e);
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+.separator{
+    width: 100%;    
+    height: 40px;
+}
+
+header{
+    font-size: 1.1rem;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(60deg,#11425F ,55%,#006045);   
+    position:fixed;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    letter-spacing: 10px;
+    box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.5);
+}
+.badge-base{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.myself-container {
+    
+    background-image: url("../imgs/Intento_1_del_banner.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.myself-container p{
+    margin-top: 180px;
+    margin-left: 100px;
+    width: 25%;
+    color: white;
+    font-size: 3rem;
+    display: inline-block;
+    background-color: #11425F;
+    border-radius: 4px;
+    padding: 20px 40px;
+    opacity: 90%;
+}
+.section-title{
+    margin: 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.skills-container{
+    padding:3%;
+    margin: 5%;
+    display: grid;    
+    grid-template-columns: repeat(4,minmax(100px,1fr));
+    column-gap: 2%;
+    row-gap: 20px;
+}
+
+.skill-box{
+    justify-self: center;
+    width: 60%;
+    height: 30px;
+    display: flex;
+    border: solid 1px black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 7px 5px 1px rgba(0,0,0,0.5);
+
+}
+
+.skill-box a{
+    
+    font-size: 1.5rem;
+    text-align: center ;
+    color: inherit;
+    width: 120px ;
+    font-weight: 600;
+    
+    height: 20px;
+}
+
+.skill-box-yellow{
+    background-color: #f88900;
+    border-color: #9d9d9d;
+    border-width: 1.5px;
+    color: beige;
+    transition: 0.5s;
+
+
+}
+.skill-box-yellow:hover{
+    background-color:beige ;
+    color: #f88900;
+    
+
+}
+
+.skill-box-green{
+    background-color: #7ab806;
+    border-color: #9d9d9d;
+    border-width: 1.5px;
+    color: beige;
+    transition: 0.5s;
+
+
+}
+.skill-box-green:hover{
+    background-color:beige ;
+    color: #7ab806;
+    
+
+}
+
+.skill-box-blue{
+    background-color: #0b98cf;
+    border-color: #9d9d9d;
+    border-width: 1.5px;
+    color: beige;
+    transition: 0.5s;
+
+
+}
+.skill-box-blue:hover{
+    background-color:beige ;
+    color: #0b98cf;
+    
+
+}
+
+.skill-box-red{
+    background-color: #e43f2d;
+    border-color: #9d9d9d;
+    border-width: 1.5px;
+    color: beige;
+    transition: 0.5s;
+
+
+}
+.skill-box-red:hover{
+    background-color:beige ;
+    color: #e43f2d;
+    
+
+}
+
+.skill-box-purple{
+    background-color: #8d2d92;
+    border-color: #9d9d9d;
+    border-width: 1.5px;
+    color: beige;
+    transition: 0.5s;
+
+
+}
+.skill-box-purple:hover{
+    background-color:beige ;
+    color:#8d2d92;
+    
+
+}
+.education-timeline-container{
+    
+    justify-content: center;
+}
+.education-div{
+    margin: 0 4%;
+    height: 70vw;
+    background-image: url("../imgs/Mi_educacion.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/*mis cursos*/ 
+
+.platzi-courses-container{
+    
+    margin: 0 10%;
+    margin-top: 50px;  
+    display: grid;
+    grid-template-columns: repeat(3,minmax(275px,400px));
+    row-gap: 30px;
+    place-content: center;
+}
+
+.course-container{
+    display: flex;
+    flex-direction: column;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #98ca3f;
+    margin:20px;
+    min-height: 200px;
+    position: relative;
+    text-align: center;
+    background:linear-gradient(#24385b,#121f3d) ;
+    color: white;
+    box-shadow: 5px 7px 5px 1px rgba(0,0,0,0.5);
+    justify-content: space-between;
+
+}
+.course-container img{
+    position: absolute;
+    width: 100px;
+    margin-left:calc(50% - 50px);
+    top: -50px;
+}
+.course-container h3{
+    padding: 0 10px;
+    margin-top:50px;
+    text-align: center;
+    font-size: 2rem;
+}
+.course-container p{
+    padding: 4%;
+    text-align: justify;
+    font-size: 1.4rem;
+    
+}
+.course-container button{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    justify-self: flex-end;
+    font-size: 1.4rem;
+    border: none;
+    width: 100%;
+    font-weight: 800;
+    padding: 4px 7px;
+    background-color: #98ca3f;
+    transition: 0.5s;
+}
+
+.course-container button:hover{
+    background-color: #daff9a;
+    letter-spacing: 1px;
+    
+    
+}
+.course-container button:active{
+    background-color: #98ca3f;
+    transition: 0s;
+
+    
+}
+
+
+
+@media (max-width: 1080px){
+    
+    .platzi-courses-container{
+        grid-template-columns: repeat(2,minmax(275px,400px));
+    }
+    .skills-container{
+        grid-template-columns: repeat(3,minmax(100px,1fr));
+    }
+}
+
+@media (max-width: 680px){
+    .skills-container{
+        grid-template-columns: repeat(2,minmax(100px,1fr));
+    }
+    
+    .platzi-courses-container{
+        grid-template-columns: repeat(1,minmax(275px,400px));
+    }
+    header{
+        font-size: 1rem;
+    }
+    .education-div{
+        height: 92vw;
+        background-image: url("../imgs/Mi_educacion_recortado.png");
+    }
+}
