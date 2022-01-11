@@ -299,4 +299,10 @@ header{
         height: 92vw;
         background-image: url("../imgs/Mi_educacion_recortado.png");
     }
+    .myself-container p{
+    
+    font-size: 1rem;
+    
+
+    }
 }
