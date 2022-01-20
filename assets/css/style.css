@@ -11,8 +11,12 @@ html{
     font-size: 62.5%;
 
 }
+
 body{
-    background: linear-gradient(60deg,#092433 ,55%,#00412e);
+    background: linear-gradient(60deg,#091f2a ,55%,#033a29);
+}
+header {
+    background: linear-gradient(60deg,#163f53 ,55%,#05573e);
 }
 a{
     text-decoration: none;
@@ -31,8 +35,7 @@ a{
 header{
     font-size: 1.1rem;
     width: 100%;
-    height: 40px;
-    background: linear-gradient(60deg,#11425F ,55%,#006045);   
+    height: 40px; 
     position:fixed;
     color: white;
     z-index: 2;
@@ -78,7 +81,7 @@ header{
     padding:3%;
     margin: 5%;
     display: grid;    
-    grid-template-columns: repeat(4,minmax(100px,1fr));
+    grid-template-columns: repeat(5,minmax(100px,1fr));
     column-gap: 2%;
     row-gap: 20px;
 }
@@ -93,8 +96,15 @@ header{
     align-items: center;
     justify-content: center;
     box-shadow: 5px 7px 5px 1px rgba(0,0,0,0.5);
+    overflow: hidden;
 
 }
+.skill-box:hover{
+    transform: scale(1.15);
+    
+
+}
+
 
 .skill-box a{
     
@@ -233,6 +243,12 @@ header{
     width: 100px;
     margin-left:calc(50% - 50px);
     top: -50px;
+    transition: 0.3s;
+}
+.course-container img:hover{
+    transform: scale(1.15);
+    
+
 }
 .course-container h3{
     padding: 0 10px;
@@ -280,13 +296,20 @@ header{
         grid-template-columns: repeat(2,minmax(275px,400px));
     }
     .skills-container{
-        grid-template-columns: repeat(3,minmax(100px,1fr));
+        grid-template-columns: repeat(4,minmax(100px,1fr));
     }
+    .myself-container p{
+    
+        font-size: 2rem;
+        padding: 20px 7px;
+        
+    
+        }
 }
 
 @media (max-width: 680px){
     .skills-container{
-        grid-template-columns: repeat(2,minmax(100px,1fr));
+        grid-template-columns: repeat(3,minmax(100px,1fr));
     }
     
     .platzi-courses-container{
@@ -300,10 +323,17 @@ header{
         background-image: url("../imgs/Mi_educacion_recortado.png");
     }
     .myself-container p{
-    
-    font-size: 1rem;
+    margin-top: 280px;
+    font-size: 1.2rem;
     padding: 20px 7px;
     
 
     }
+}
+@media (max-width: 500px){
+    .skills-container{
+        grid-template-columns: repeat(2,minmax(100px,1fr));
+    }
+    
+    
 }
