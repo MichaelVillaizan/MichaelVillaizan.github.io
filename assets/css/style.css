@@ -8,17 +8,17 @@
 
 }
 html{
-    font-size: 62.5%;
+    font-size: 62.5% !important;
 
 }
 
 body{
     background-color: #091f2a;
-    background: linear-gradient(60deg,#091f2a ,55%,#033a29);
+    background: linear-gradient(60deg,#091f2a ,55%,#033a29) !important;
 }
 header {
     background-color: #163f53;
-    background: linear-gradient(60deg,#163f53 ,55%,#05573e);
+    background: linear-gradient(60deg,#163f53 ,55%,#05573e) !important;
 }
 a{
     text-decoration: none;
