@@ -294,6 +294,7 @@ header h1{
 .links-section{
     display: flex;
     margin-left: 3%;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .link-box{
