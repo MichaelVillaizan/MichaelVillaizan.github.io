@@ -291,6 +291,76 @@ header h1{
 
     
 }
+.links-section{
+    display: flex;
+    margin-left: 3%;
+    justify-content: center;
+}
+.link-box{
+    width: 280px;
+    height: 261px;
+    background-color:  #121f3d;
+    border-radius: 8px ;
+    color: white;
+    overflow: hidden;
+    font-size: 1rem;
+    
+}
+.link-box h1{
+    font-weight: 500 ;
+    display:block;
+    margin: 8px 0px 8px 16px ;
+    
+
+}
+.link-box p{
+    font-size: 1.4rem;
+    display:block;
+    margin: 8px 0px 8px 16px ;
+    
+
+}
+.link-box a{
+    display:block;
+    width: 95px ;
+    font-size: 1.6rem;
+    font-weight: 550;
+    margin: 16px 0px 4px 16px ;
+    padding: 4px 16px;
+    color:#fff;
+    outline: solid 1px white;
+    border-radius: 40px;
+
+}
+.link-box a:hover{
+    border-style: inset;
+    padding: 3px 15px;
+    background-color: rgba(255,255,255,.1);
+    border: 1px solid #fff;
+}
+
+.link-box > img{
+    margin: 12px 0px 0px 16px ;
+    width: 56px;
+    border-radius: 100%;
+    
+}
+.link-header{
+    width: 100%;
+    height: 45px;
+    background-color: #24385b;
+}
+.links_platzi-logo{
+    margin-left: 4px;
+    padding:8px;
+}
+.links_platzi-logo :nth-child(1){
+    width: 30px;
+}
+.links_platzi-logo :nth-child(2){
+    width: 60px;
+}
+
 
 
 
